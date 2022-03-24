@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next,
+main,
+#layout {
+  @apply
+    flex
+    flex-1
+    flex-col
+    min-h-full
+  ;
+}
+
+body, button, input, select {
+  font-family: 'Inter', monospace;
+}
